@@ -5,5 +5,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     sourcemap: true
+  },
+  preview: {
+    allowedHosts: true
   }
 });
